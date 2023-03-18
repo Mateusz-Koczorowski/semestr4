@@ -1,4 +1,3 @@
 <?php
-    $connect = new mysqli("localhost", "root", "", "wsb_k26");    
-
+    $connect = new mysqli("localhost", "root", "", "wsb");
 ?>
