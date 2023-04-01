@@ -1,56 +1,45 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-       <?php
-            $firstName = "Janusz";
-            $lastName = "Nowak";
-            echo "Imię i naziwsko: $firstName $lastName <br>"; 
-            echo 'Imię i naziwsko: $firstName $lastName<br>'; 
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<?php
+  $firstName = "Janusz";
+  $lastName = "Nowak";
 
-            //heredoc
-            echo <<< DATA
-            <hr>
-            Imię: $firstName<br>
-            Nazwisko: $lastName<br>
-            </hr>
-            DATA;
+  echo "Imię i nazwisko: $firstName $lastName<br>";
+  echo 'Imię i nazwisko: $firstName $lastName<br>';
 
-            $data = <<< DATA
-            <hr>
-            Imię: $firstName<br>
-            Nazwisko: $lastName<br>
-            </hr>
-            DATA;
+//heredoc
+  echo <<< DATA
+    <hr>
+    Imię: $firstName<br>
+    Nazwisko: $lastName<br>
+DATA;
 
-            echo $data;
+$data = <<< DATA
+  <hr>
+  Imię: $firstName<br>
+  Nazwisko: $lastName<br>
+DATA;
+echo $data;
 
-            //nowdoc
-            echo <<< 'DATA'
-            <hr>
-            Imię: $firstName<br>
-            Nazwisko: $lastName<br>
-            </hr>
-            DATA;
+//nowdoc
+echo <<< 'DATA'
+  <hr>
+  Imię: $firstName<br>
+  Nazwisko: $lastName<br>
+DATA;
 
-            $bin = 0b1010;
-            echo $bin;
+$bin = 0b1010;
+echo $bin; //10
+$oct = 0o10;
+echo $oct; //8
+$hex = 0x1A;
+echo $hex; //26
 
-            $oct = 010;
-            echo $oct;
-
-            $hex = 0xA;
-            echo $hex;
-
-
-        ?>
-        <script src="" async defer></script>
-    </body>
+ ?>
+  </body>
 </html>

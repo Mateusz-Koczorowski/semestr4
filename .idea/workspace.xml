@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61e37fe7-3670-477c-97b8-24470f7a603c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a82b9529-ce1f-4757-8789-db0ff9d56314.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_db/1_db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_db/2_db_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_db/3_delete_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_db/4_add_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/2_db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/4_db_tables.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/db_1_relacje.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/db_1_relacje_v2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/db_phpstorm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/db_przegladarka_deployment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/db_v2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/db_v3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/tabela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/tabela_v2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/add_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/delete_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/script.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/semestr4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_podstawy.php" beforeDir="false" afterPath="$PROJECT_DIR$/1_podstawy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_file.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/1_db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/firstfile.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NBMTmWJ77333ZoVEvxR2BBUu3i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/xampp/htdocs/Studia/semestr4/scripts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Studia\semestr4\scripts" />
+      <recent name="C:\xampp\htdocs\Studia\semestr4\3_db" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61e37fe7-3670-477c-97b8-24470f7a603c" name="Changes" comment="" />
+      <created>1679133032241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679133032241</updated>
+      <workItem from="1679133033651" duration="103000" />
+      <workItem from="1679133149122" duration="1485000" />
+      <workItem from="1680328979741" duration="10125000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
