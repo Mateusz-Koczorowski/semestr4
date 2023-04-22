@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!doctype html>
 <html lang="pl">
 <head>
@@ -52,14 +55,27 @@ TABLEUSERS;
         }
     }
     echo "</table>";
+    if(isset($_SESSION["error"])){
+        echo '<h4>$_SESSION["error"]</h4>';
+        unset($_SESSION["error"]);
+    }
     if(isset($_GET["add_user"])){
         echo <<< ADDUSERFORM
             <h4> Formularz</h4>
-<form action="../scripts/add_user.php" method="post">
+    <form action="../scripts/add_user.php" method="post">
     <input type="text" name="firstName" placeholder="Imie" autofocus required><br><br>
     <input type="text" name="secondName"placeholder="Nazwisko" required><br><br>
     <input type="date" name="birthday" placeholder="Data urodzenia" required><br><br>
-    <input type="text" name="city_id" placeholder="Miasto" required><br><br>
+    <!-- <input type="text" name="city_id" placeholder="Miasto" required><br><br> -->
+    <select name='city_id'>
+    ADDUSERFORM;
+        $sql = "SELECT id, city from cities;";
+        $result = $conn->query(($sql));
+        while($city = $result->fetch_assoc()){
+            echo "<option value='$city[id]'>$city[city]</option>";
+        }
+        echo <<< ADDUSERFORM
+        </select>
     <input type="submit" value="ADD USER">
     
 </form>
