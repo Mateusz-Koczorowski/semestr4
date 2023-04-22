@@ -17,6 +17,6 @@ require_once "./connect.php";
 VALUES (NULL, $_POST[city_id], '$_POST[firstName]', '$_POST[secondName]', '$_POST[birthday]');";
     $conn -> query($sql);
 
-header("location: ../3_db/4_add_user.php");
+header("location: ../3_db/5_add_user.php");
 
 
